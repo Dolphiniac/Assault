@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assault", "Code\Game\Game.vcxproj", "{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4EA61537-D076-4DE1-A070-D286180E4C12} = {4EA61537-D076-4DE1-A070-D286180E4C12}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "..\Engine\Code\Engine\Engine.vcxproj", "{4EA61537-D076-4DE1-A070-D286180E4C12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		DebugInline|Win32 = DebugInline|Win32
+		DebugInline|x64 = DebugInline|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Tools Debug|Win32 = Tools Debug|Win32
+		Tools Debug|x64 = Tools Debug|x64
+		UWP_Debug|Win32 = UWP_Debug|Win32
+		UWP_Debug|x64 = UWP_Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.Debug|Win32.Build.0 = Debug|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.Debug|x64.ActiveCfg = Debug|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.DebugInline|Win32.ActiveCfg = Debug|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.DebugInline|Win32.Build.0 = Debug|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.DebugInline|x64.ActiveCfg = Release|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.DebugInline|x64.Build.0 = Release|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.Release|Win32.ActiveCfg = Release|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.Release|Win32.Build.0 = Release|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.Release|x64.ActiveCfg = Release|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.Tools Debug|Win32.ActiveCfg = Debug|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.Tools Debug|Win32.Build.0 = Debug|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.Tools Debug|x64.ActiveCfg = Release|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.Tools Debug|x64.Build.0 = Release|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.UWP_Debug|Win32.ActiveCfg = Debug|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.UWP_Debug|Win32.Build.0 = Debug|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.UWP_Debug|x64.ActiveCfg = Release|Win32
+		{1D0FC36E-ABC0-4FCE-BF62-86DE4FE95C32}.UWP_Debug|x64.Build.0 = Release|Win32
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Debug|Win32.Build.0 = Debug|Win32
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Debug|x64.ActiveCfg = Debug|x64
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Debug|x64.Build.0 = Debug|x64
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.DebugInline|Win32.ActiveCfg = DebugInline|Win32
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.DebugInline|Win32.Build.0 = DebugInline|Win32
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.DebugInline|x64.ActiveCfg = DebugInline|x64
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.DebugInline|x64.Build.0 = DebugInline|x64
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Release|Win32.ActiveCfg = Release|Win32
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Release|Win32.Build.0 = Release|Win32
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Release|x64.ActiveCfg = Release|x64
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Release|x64.Build.0 = Release|x64
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Tools Debug|Win32.ActiveCfg = Tools Debug|Win32
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Tools Debug|Win32.Build.0 = Tools Debug|Win32
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Tools Debug|x64.ActiveCfg = Tools Debug|x64
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.Tools Debug|x64.Build.0 = Tools Debug|x64
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.UWP_Debug|Win32.ActiveCfg = UWP_Debug|Win32
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.UWP_Debug|Win32.Build.0 = UWP_Debug|Win32
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.UWP_Debug|x64.ActiveCfg = UWP_Debug|x64
+		{4EA61537-D076-4DE1-A070-D286180E4C12}.UWP_Debug|x64.Build.0 = UWP_Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
