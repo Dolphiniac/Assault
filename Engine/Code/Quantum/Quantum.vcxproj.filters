@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{be4838c8-68b2-4d67-9792-946acf048fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileSystem">
+      <UniqueIdentifier>{89d62476-4401-4cfc-b781-8e87c321ab76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\String.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="QuantumCommon.h" />
+    <ClInclude Include="Core\EventSystem.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\FileUtils.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystem\Path.h">
+      <Filter>FileSystem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\String.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\EventSystem.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\FileUtils.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystem\Path.cpp">
+      <Filter>FileSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Core\Subroutines.asm">
+      <Filter>Core</Filter>
+    </None>
+    <None Include="Core\EventSystem.inl">
+      <Filter>Core</Filter>
+    </None>
+  </ItemGroup>
+</Project>
